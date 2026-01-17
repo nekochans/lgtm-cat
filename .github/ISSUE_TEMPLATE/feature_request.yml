@@ -1,0 +1,41 @@
+name: "✨ Feature request / 機能リクエスト"
+description: "Ideas & improvements / 「こうなったら嬉しい！」のご提案"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the suggestion! / ご提案ありがとうございます 🙏
+        A one-liner is enough to start. / まずは一言だけでも大丈夫です
+
+  - type: textarea
+    attributes:
+      label: "One-liner / ひとこと"
+      description: "What would make you happy? / こうなると嬉しい、を教えてください"
+      placeholder: "e.g. Make it easier to find a cat to copy on HOME / 例）HOMEでコピーする猫を探しやすくしたい"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: "Area (optional) / どのあたり？（任意）"
+      description: "Pick if you know. / 分かれば選んでください"
+      options:
+        - "HOME"
+        - "Upload / アップロード"
+        - "Docs / ドキュメント"
+        - "Other / その他"
+        - "Not sure / わからない"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Details (optional) / もう少しだけ（任意）"
+      description: "Ideal behavior, background, links, screenshots… anything helps. / 理想の挙動、背景、URL、スクショなど（書ける範囲で）"
+      placeholder: |
+        - Ideal / 理想：
+        - Background / 背景：
+        - Reference / 参考（URLなど）：
+    validations:
+      required: false
