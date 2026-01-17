@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: "📖 How to use / 使い方"
-    url: "https://lgtmeow.com/docs/how-to-use"
-    about: "If you’re unsure, please check the docs first. / 迷ったらまずはこちらをご確認ください。"
+  - name: "✉️ Contact form / お問い合わせフォーム"
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSf0-A1ysrWQFCDuOZY8f2uH5KhUCB5yqi7TlLEsgl95Q9WKtw/viewform"
+    about: "If you prefer not to open an issue / Issue以外で連絡したい場合はこちら"
