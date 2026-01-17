@@ -1,0 +1,55 @@
+name: "🐛 Bug report / バグ報告"
+description: "Something isn’t working / 不具合のご報告"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting! / ご報告ありがとうございます 🙏
+        Please write what you know—rough notes are totally fine. / 分かる範囲で大丈夫です（箇条書きでもOKです）
+
+  - type: textarea
+    attributes:
+      label: "Summary / 概要"
+      description: "What happened? / 何が起きましたか？"
+      placeholder: "e.g. Clicking an image doesn’t copy Markdown / 例）画像をクリックしてもMarkdownがコピーされません"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Steps to reproduce / 再現手順"
+      description: "Steps in order (rough is OK). / 手順を順番に（ざっくりでOK）"
+      placeholder: |
+        1.
+        2.
+        3.
+        Expected / 期待：
+        Actual / 実際：
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Environment / 再現環境"
+      description: "Device/OS/Browser (version if possible). / 端末・OS・ブラウザ（可能ならバージョン）"
+      placeholder: |
+        Device / 端末：
+        OS：
+        Browser / ブラウザ：
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Screenshot / Error message (optional) / スクリーンショット・エラーメッセージ（任意）"
+      description: "If you can share, it helps a lot. / 共有できる範囲で添付いただけると助かります"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Additional info (optional) / 補足情報（任意）"
+      description: "Frequency, since when, workaround, etc. / 頻度、いつ頃から、回避策など"
+    validations:
+      required: false

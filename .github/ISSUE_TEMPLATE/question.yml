@@ -1,0 +1,48 @@
+name: "🙋‍♀️ Question / 質問"
+description: "Usage & spec questions / 使い方・仕様の確認"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! / ご連絡ありがとうございます 🙏
+        Please write what you know—short is totally OK. / 分かる範囲で大丈夫です（短くてOKです）
+
+  - type: textarea
+    attributes:
+      label: "Question / 質問"
+      description: "What would you like to know? / 何を知りたいですか？"
+      placeholder: "e.g. What format does Random Copy copy? / 例）ランダムコピーはどの形式がコピーされますか？"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: "Related page (URL) / 該当ページ（URL）"
+      description: "If you have a link, it helps a lot. / URLがあると助かります"
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "What you tried (optional) / 試したこと（任意）"
+      description: "If anything. / もしあれば"
+      placeholder: "e.g. Clicked an image on HOME, tried Random Copy… / 例）HOMEで画像クリック、ランダムコピーを試しました"
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: "Environment (optional) / 利用環境（任意）"
+      description: "Device/OS/Browser (rough is OK). / 端末・OS・ブラウザ（ざっくりでOK）"
+      placeholder: "e.g. Windows 11 / Chrome, iPhone / Safari"
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: "Screenshot or message (optional) / スクリーンショット・メッセージ（任意）"
+      description: "If you can share, it helps. / 共有できる範囲で大丈夫です"
+    validations:
+      required: false
